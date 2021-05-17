@@ -13,6 +13,12 @@ app.py contains all the requiered for flask and to manage APIs.
 Procedure--
 Open command Prompt and go to given directory and then run python app.py
 
-# Docker commands
-docker build -t <your-image-name> .
-docker run -p 5000:5000 <your-image-name>
+
+# Docker commands
+docker build -t yourImageName .
+
+docker images
+
+docker run -p 5000:5000 yourImageName
+
+docker ps -a
